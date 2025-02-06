@@ -1,0 +1,8 @@
+:root {
+    --primary: #2A2A72;
+    --secondary: #009FFD;
+    --gradient: linear-gradient(45deg, var(--primary), var(--secondary));
+    --white: #FFFFFF;
+    --black: #000000;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
