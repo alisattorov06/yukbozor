@@ -1,0 +1,112 @@
+/* Umumiy stillar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--white);
+    box-shadow: var(--shadow);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  
+  .cta-button {
+    background: var(--gradient);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: var(--white);
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .text-gradient {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  /* E'lonlar Ro'yxati */
+  .listings {
+    padding: 2rem;
+  }
+  
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .listing-card {
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  
+  /* E'lon Joylash Formasi */
+  .post-ad {
+    padding: 2rem;
+  }
+  
+  .post-ad form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .post-ad label {
+    font-weight: bold;
+  }
+  
+  .post-ad input, .post-ad textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
